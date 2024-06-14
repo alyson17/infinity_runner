@@ -1,0 +1,66 @@
+{
+	"name": "tiro",
+	"plugin-id": "Sprite",
+	"sid": 621511348588914,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Sólido",
+			"sid": 366730157600505
+		},
+		{
+			"behaviorId": "Bullet",
+			"name": "Projétil",
+			"sid": 257881174594539
+		},
+		{
+			"behaviorId": "destroy",
+			"name": "DestruirForaDoLayout",
+			"sid": 580498636398956
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 55,
+						"height": 57,
+						"originX": 1.509090909090909,
+						"originY": 1.2105263157894737,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8914022,
+						"collisionPoly": {
+							"points": [
+								0.17272735889511612,
+								0,
+								1,
+								0.2543859120698018,
+								0.8727269613863342,
+								0.921052590262358,
+								0.07272730605770683,
+								0.8859645238861589
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 527869785294065,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

@@ -1,0 +1,95 @@
+{
+	"name": "evento_comeco",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-x",
+					"objectClass": "fundo",
+					"sid": 275866083827428,
+					"parameters": {
+						"comparison": 3,
+						"x-co-ordinate": "312"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-x",
+					"objectClass": "fundo",
+					"sid": 464869635175762,
+					"parameters": {
+						"x": "1190"
+					}
+				}
+			],
+			"sid": 477172144876437
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "iniciar",
+					"sid": 707148141663533
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 974102794128545,
+					"parameters": {
+						"layout": "layout 1"
+					}
+				}
+			],
+			"sid": 855751040954352
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 850818184233638
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Áudio",
+					"sid": 399565027949598,
+					"parameters": {
+						"audio-file": "perfect-beauty-191271",
+						"loop": "looping",
+						"volume": "-10",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 230246810736879
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-end-of-layout",
+					"objectClass": "System",
+					"sid": 139718933526106
+				}
+			],
+			"actions": [
+				{
+					"id": "stop-all",
+					"objectClass": "Áudio",
+					"sid": 897672089429621
+				}
+			],
+			"sid": 488878143931711
+		}
+	],
+	"sid": 180644464504825
+}

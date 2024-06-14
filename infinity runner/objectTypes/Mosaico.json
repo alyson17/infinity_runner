@@ -1,0 +1,28 @@
+{
+	"name": "Mosaico",
+	"plugin-id": "Tilemap",
+	"sid": 617667806875255,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Sólido",
+			"sid": 173983740795709
+		}
+	],
+	"effectTypes": [],
+	"image": {
+		"width": 192,
+		"height": 192,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "",
+		"exportFormat": "lossless",
+		"exportQuality": 0.8,
+		"imageSpriteId": 7788839,
+		"useCollisionPoly": true,
+		"tag": ""
+	},
+	"tile-collision-polys": {}
+}

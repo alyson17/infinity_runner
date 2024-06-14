@@ -1,0 +1,70 @@
+{
+	"name": "eventos_end",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 536826251712285
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "Score",
+					"sid": 735468598145077,
+					"parameters": {
+						"text": "Score"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Áudio",
+					"sid": 734500275531080,
+					"parameters": {
+						"audio-file": "perfect-beauty-191271",
+						"loop": "looping",
+						"volume": "-10",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 368103216153206
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Voltar",
+					"sid": 696554629912272
+				}
+			],
+			"actions": [
+				{
+					"id": "reset-global-variables",
+					"objectClass": "System",
+					"sid": 840013109101063
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 661475513169935,
+					"parameters": {
+						"layout": "layout 1"
+					}
+				},
+				{
+					"id": "stop-all",
+					"objectClass": "Áudio",
+					"sid": 784863801636271
+				}
+			],
+			"sid": 144711282418911
+		}
+	],
+	"sid": 477425922391750
+}

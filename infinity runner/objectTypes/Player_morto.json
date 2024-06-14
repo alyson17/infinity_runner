@@ -1,0 +1,60 @@
+{
+	"name": "Player_morto",
+	"plugin-id": "Sprite",
+	"sid": 836880656389685,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 240,
+						"height": 34,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6346045,
+						"collisionPoly": {
+							"points": [
+								0.37083333333333335,
+								0,
+								0.4125,
+								0,
+								0.9333333333333333,
+								0.08823529411764706,
+								1,
+								0.6764705882352942,
+								0.9958333333333333,
+								0.7647058823529411,
+								0.9375,
+								1,
+								0.041666666666666664,
+								1,
+								0.008333333333333333,
+								0.7941176470588235,
+								0.04583333333333333,
+								0.058823529411764705
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 524464022146503,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
